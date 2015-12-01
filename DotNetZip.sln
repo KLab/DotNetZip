@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompactFramework", "CompactFramework", "{53F02794-A425-4D91-B136-AC52C3CEDFBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zlib", "Zlib\Zlib.csproj", "{617B1968-404C-4566-865C-5BE4D07214B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zip", "Zip\Zip.csproj", "{FF5D320D-913B-41BE-8C53-A69F03DB0BF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BZip2", "BZip2\BZip2.csproj", "{C87C1E23-51C0-474F-9564-2E63DB8C49BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{617B1968-404C-4566-865C-5BE4D07214B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{617B1968-404C-4566-865C-5BE4D07214B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{617B1968-404C-4566-865C-5BE4D07214B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{617B1968-404C-4566-865C-5BE4D07214B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C87C1E23-51C0-474F-9564-2E63DB8C49BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C87C1E23-51C0-474F-9564-2E63DB8C49BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C87C1E23-51C0-474F-9564-2E63DB8C49BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C87C1E23-51C0-474F-9564-2E63DB8C49BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF5D320D-913B-41BE-8C53-A69F03DB0BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF5D320D-913B-41BE-8C53-A69F03DB0BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF5D320D-913B-41BE-8C53-A69F03DB0BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF5D320D-913B-41BE-8C53-A69F03DB0BF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{617B1968-404C-4566-865C-5BE4D07214B5} = {53F02794-A425-4D91-B136-AC52C3CEDFBC}
+		{FF5D320D-913B-41BE-8C53-A69F03DB0BF9} = {53F02794-A425-4D91-B136-AC52C3CEDFBC}
+		{C87C1E23-51C0-474F-9564-2E63DB8C49BD} = {53F02794-A425-4D91-B136-AC52C3CEDFBC}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.FileWidth = 120
+		$1.EolMarker = Unix
+		$1.inheritsSet = VisualStudio
+		$1.inheritsScope = text/plain
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.IndentSwitchBody = True
+		$2.IndentPreprocessorDirectives = False
+		$2.AnonymousMethodBraceStyle = NextLine
+		$2.PropertyBraceStyle = NextLine
+		$2.PropertyGetBraceStyle = NextLine
+		$2.PropertySetBraceStyle = NextLine
+		$2.EventBraceStyle = NextLine
+		$2.EventAddBraceStyle = NextLine
+		$2.EventRemoveBraceStyle = NextLine
+		$2.StatementBraceStyle = NextLine
+		$2.ElseNewLinePlacement = NewLine
+		$2.CatchNewLinePlacement = NewLine
+		$2.FinallyNewLinePlacement = NewLine
+		$2.WhileNewLinePlacement = NewLine
+		$2.BeforeMethodDeclarationParentheses = False
+		$2.BeforeMethodCallParentheses = False
+		$2.BeforeConstructorDeclarationParentheses = False
+		$2.BeforeIndexerDeclarationBracket = False
+		$2.BeforeDelegateDeclarationParentheses = False
+		$2.AfterDelegateDeclarationParameterComma = True
+		$2.NewParentheses = False
+		$2.SpacesBeforeBrackets = False
+		$2.SpacesAfterTypecast = True
+		$2.MethodCallArgumentWrapping = WrapIfTooLong
+		$2.NewLineAferMethodCallOpenParentheses = NewLine
+		$2.MethodCallClosingParenthesesOnNewLine = NewLine
+		$2.MethodDeclarationParameterWrapping = WrapIfTooLong
+		$2.NewLineAferMethodDeclarationOpenParentheses = NewLine
+		$2.AlignToFirstMethodDeclarationParameter = False
+		$2.IndexerDeclarationParameterWrapping = WrapIfTooLong
+		$2.NewLineAferIndexerDeclarationOpenBracket = NewLine
+		$2.AlignToFirstIndexerDeclarationParameter = False
+		$2.IndexerArgumentWrapping = WrapIfTooLong
+		$2.NewLineAferIndexerOpenBracket = NewLine
+		$2.IndexerClosingBracketOnNewLine = NewLine
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+	EndGlobalSection
+EndGlobal
